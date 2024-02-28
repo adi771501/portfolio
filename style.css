@@ -1,0 +1,246 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width:100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+.nav{
+    height: 100px;
+    width: 100vw;
+    display: flex;
+    padding: 0vw 8vw;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.logo h1{
+    font-size: 3vw;
+    font-family: holiday start;
+    font-weight: 900;
+    color: #6e07f3;
+    cursor: pointer;
+}
+.navPart2{
+    display: flex;
+    gap: 2vw;
+    
+}
+
+.navPart2 h2{
+    font-family: bouncyl;
+    border: 2px solid #6e07f3;
+    border-radius: 50px;
+    color: #6e07f3;
+    font-weight: 500;
+    padding: 5px 10px;
+}
+.navpart2 i{
+    font-size: 45px;
+    
+}
+
+.navPart2 h2:hover{
+    border: 2px solid #fff;
+    background-color: #6e07f3;
+    color: #fff;
+    cursor: pointer;
+    transition: all ease 0.5s;
+}
+.about{
+height: 38vw;   
+display: flex;
+flex-direction: column;
+align-items:center;
+justify-content: center;
+
+}
+.about h1{
+    font-family: bouncyl;
+    color: #141c3a;
+    font-size: 5vw;  
+    text-transform: uppercase; 
+    cursor:default;
+}
+.about h2{
+    font-family: gilroy;
+    margin-bottom: 55px;
+    color: #000000;
+    font-size: 1.4vw;   
+    cursor:default;
+}
+
+.about img{
+    height: auto;
+    max-width: 100%;   
+}
+
+.bottomimg{
+    height: 48vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+.bottomimg img{
+    height: 48vh;
+    width: 57vw;
+}
+.section{
+    background-color:#6e07f3 ;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor:default;
+}
+    .section2{
+    color: #fff;
+    height: 40vh;
+    width: 60vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: gilroy;
+    
+}
+.section2 h1{
+    font-size: 3vw;
+    font-weight: 400;
+}
+.section2 h2{
+    font-size: 1.5vw;
+    font-weight: 200;
+    padding: 8px 0;
+    text-align: center;
+}
+.pannel{
+    background-color: #fff;
+    border-radius: 20px;
+    border: 1px solid #cad1fd;
+    height: 68vh;
+    width: 90vw;
+    margin: 0 4.6vw;
+    margin-top: -15vh;
+    display: flex;
+    overflow: hidden;
+    cursor:default;
+}
+.box1{
+    border-radius: 20px;
+    border-right: 1px solid #cad1fd;
+    height: 100vh;
+    width: 33.3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px 55px;
+    text-align: center;
+    gap: 20px;
+}
+.box1 h1{
+    font-family: gilroy;
+    text-transform: uppercase;
+}
+.box1 h3{
+    font-family: gilroy;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+.box2{
+    border-radius: 20px;
+    border-right: 1px solid #cad1fd;
+    height: 100vh;
+    width: 33.3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px 55px;
+    text-align: center;
+    gap: 20px;
+}
+.box3{
+    height: 100vh;
+    width: 33.3vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 55px 55px;
+    text-align: center;
+    gap: 20px;
+}
+.box1 i{
+    font-size: 45px;
+    padding: 5px 8px;
+    background-color: #5BE9B9;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+.box2 i{
+    font-size: 45px;
+    padding: 5px 8px;
+    background-color: #5BE9B9;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+.box2 h1{
+    font-family: gilroy;
+    text-transform: uppercase;
+}
+.box2 h2{
+    font-family: gilroy;
+    text-transform: lowercase;
+    font-weight: 400;
+    font-size: 20px;
+}
+.skills{
+    
+    display: flex;
+    height: 25vh;
+    width: 20vw;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.skills h3{
+    gap: 20px;
+    font-family: gilroy;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 22px;
+}
+.box3 i{
+    font-size: 45px;
+    padding: 5px 8px;
+    background-color: #5BE9B9;
+    border-radius: 50px;
+    border: 2px solid #fff;
+}
+.box3 h1{
+    font-family: gilroy;
+    text-transform: uppercase;
+}
+.box3 h2{
+    font-family: gilroy;
+    text-transform: lowercase;
+    font-weight: 400;
+}
+.media{
+    display: flex;
+    height: 25vh;
+    width: 20vw;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.media i{
+    background-color: cornflowerblue;
+    font-size: 35px;
+    color: #fff;
+    background-color: #06193c;
+}
