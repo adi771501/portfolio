@@ -5,7 +5,6 @@
     src: url(./Bouncyl.woff2);
     font-family: holiday start;
     src:url(./holiday-start.regular.woff2)
-    git
 }
 *{
     padding: 0px;
@@ -36,6 +35,9 @@ html,body{
     font-weight: 900;
     color: #6e07f3;
     cursor: pointer;
+}
+.logo a{
+    text-decoration: none;
 }
 .navPart2{
     display: flex;
@@ -230,6 +232,9 @@ justify-content: center;
     background-color: #5BE9B9;
     border-radius: 50px;
     border: 2px solid #fff;
+}
+.box3 a{
+    text-decoration: none;
 }
 .box3 h1{
     font-family: gilroy;
