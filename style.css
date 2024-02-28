@@ -236,6 +236,10 @@ justify-content: center;
 .box3 a{
     text-decoration: none;
 }
+.box1 a{
+    text-decoration: none;
+    color: #000000;
+}
 .box3 h1{
     font-family: gilroy;
     text-transform: uppercase;
