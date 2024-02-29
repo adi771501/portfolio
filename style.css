@@ -1,10 +1,15 @@
 @font-face {
     font-family: gilroy;
     src: url(./Radomir\ Tinkov\ -\ Gilroy-Light.woff2);
+}
+@font-face {
     font-family: bouncyl;
     src: url(./Bouncyl.woff2);
+}
+@font-face {
     font-family: holiday start;
     src:url(./holiday-start.regular.woff2)
+
 }
 *{
     padding: 0px;
@@ -269,76 +274,87 @@ justify-content: center;
     color: #fff;
     background-color: #06193c;
 }
-@media (max-width: 768px) {
+@media (max-width: 800px ){
     .nav{
-        height: 50px;
-        padding: 30px;        
+        height: 100px;
+        padding: 40px;        
     }
     .logo h1{
-        font-size: 35px;
+        font-size: 45px;
         font-family: holiday start;
     }
     .navPart2 h2{
-       font-size: 18px;
-        padding: 3px 10px;
+       font-size: 20px;
+        padding: 5px 15px;
     }
-    
+    .about{
+        overflow: hidden;
+        height: 41vh;
+        margin-top: 40px;
+    }
     .about h1{
-        font-size: 9vh;  
+        font-size: 9vw;  
     }
     .about h2{
-        margin-bottom: 30px;
-        font-size: 2.35vh;   
+        margin-bottom: 40px;
+        font-size: 2.5vw;   
     }
     .about img{
-        height: 25vh;
-        max-width: 100vw;   
+        height: 20vh; 
+    }
+    .bottomimg{
+        height:51vw;
     }
     .bottomimg img{
-        width: 85%;
-        height: 56vh;
+       
+        width: 100%;
+        height: 39vh;
     }
     .section{
-        height: 60vh;
+        height: 50vh;
     }
     .section2{
-        width: 80%;        
+        width: 90%;        
     }
     .section2 h1{
-        font-size: 5vw;
-        font-weight: 400;
+        font-size: 6vw;
     }
     .section2 h2{
-        font-size: 2vw;
-        margin-bottom: 70px;        
+        font-size: 2.5vw;
+        margin-bottom: 100px;        
     }
     .box1{
         padding: 30px 30px;
+        width: 33.3%;
     }
     .box1 h1{
-        font-family: gilroy;
         font-size: 4vw;
-        text-transform: uppercase;
     }
     .box1 h3{
-        
         font-size: 2vw;
     }
     .box2{
         padding: 30px 30px;
+        width: 33.3%;
     }
     .box3{
         padding: 30px 30px;
+        height: 30vh;
+        width:33.3% ;
+        
     }
-
     .box2 h1{
         font-size: 4vw;
     }
     .box2 h3{
         font-size: 2vw;
     }
+    .pannel{
+        height: 38vh;
+    }
     .skills{
-        height: 18vh;
+        height: 12vh;
+        width: 25vw;
     }
     .box3 h1{
         font-size: 4vw;
@@ -346,5 +362,108 @@ justify-content: center;
     .box3 h3{
         font-size: 2vw;
     }
+    .media{
+        width: 12vh;
+    }
+    .media i{
+        font-size:25px ;
+    }
    
+}
+@media (max-width: 600px) {
+    .nav{
+        height: 50px;
+        padding: 50px 15px;        
+    }
+    .logo h1{
+        font-size: 40px;
+    }
+    .navPart2 h2{
+       font-size: 18px;
+        padding: 3px 10px;
+    }
+    .about{
+        margin-top: 10px;
+        height: 90vw;
+        overflow: hidden; 
+    }
+    .about h1{
+        font-size:9.5vw; 
+    }
+    .about h2{
+        margin-bottom: 30px;
+        font-size: 3vw;   
+    }
+    .about img{
+        height: 20vh;
+        max-width: 100vw;   
+    }
+    .bottomimg{
+        height: 60vw;
+    }
+    .bottomimg img{
+        width: 100%;
+        height: 39.5vh;
+    }
+    .section2{
+        width: 85%;
+    }
+    .section2 h1{
+        font-size: 11vw;
+        letter-spacing: -0.6px;
+        text-align: left;
+    }
+    .section2 h2{
+        font-size: 3.4vw;
+        margin-bottom: 70px;
+        text-align: left;        
+    }
+    .pannel{
+        height: auto;
+        flex-direction: column;
+        
+    }
+    .box1{
+        height: 50vh;
+        width: 90vw;
+        padding:  30px;
+
+    }
+    .box1 h1{
+        font-size: 9vw;
+    }
+    .box1 h3{
+        
+        font-size: 5vw;
+    }
+    .box2{
+        height: 69vh;
+        width: 90vw;
+        padding:  30px;
+    }
+    .box3{
+        height: 50vh;
+        width: 90vw;
+        padding:  30px;
+    }
+
+    .box2 h1{
+        font-size: 9vw;
+    }
+    .box2 h3{
+        font-size: 5vw;
+    }
+    .skills{
+        height: 18vh;
+        width: 35vw;
+    }
+    .box3 h1{
+        font-size: 9vw;
+    }
+    .box3 h3{
+        font-size: 5vw;
+    }
+    .media{
+        width: 40vh;
+    }
 }
